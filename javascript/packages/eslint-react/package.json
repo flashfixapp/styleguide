@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-flashfix",
+  "description": "Shareable flashfix styleguide config for eslint",
+  "author": "flashfix GmbH <max@flashfix.app>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": "flashfixapp/styleguide",
+  "bugs": "https://github.com/flashfixapp/styleguide/issues",
+  "version": "1.0.0",
+  "keywords": [
+    "linter",
+    "config",
+    "eslint",
+    "react"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "reinstall": "rm -rf node_modules package-lock.json && npm install",
+    "test": "node ../../../test ./test js jsx",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-flashfix-base": "^1.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "7.29.1",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@flashfixapp/styleguide",
+  "version": "0.0.0",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": "flashfixapp/styleguide",
+  "bugs": "https://github.com/flashfixapp/styleguide",
+  "scripts": {
+    "preinstall": "scripts/for-each-package npm install",
+    "test": "scripts/for-each-package npm run test",
+    "check": "npm run test"
+  }
+}

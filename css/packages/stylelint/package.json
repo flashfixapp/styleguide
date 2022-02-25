@@ -1,0 +1,38 @@
+{
+  "name": "stylelint-config-flashfix",
+  "description": "Shareable flashfix styleguide config for stylelint",
+  "author": "flashfix GmbH <max@flashfix.app>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": "flashfixapp/styleguide",
+  "bugs": "https://github.com/flashfixapp/styleguide/issues",
+  "version": "1.0.0",
+  "keywords": [
+    "linter",
+    "config",
+    "stylelint"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "reinstall": "rm -rf node_modules package-lock.json && npm install",
+    "test": "node ../../../test ./test css",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-flashfix-base": "^1.0.0",
+    "stylelint": "^14.5.3"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.1.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.0.0"
+  }
+}
