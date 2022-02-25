@@ -30,6 +30,7 @@ module.exports = {
     'space-before-function-paren': ['error', { anonymous: 'never', named: 'never', asyncArrow: 'always' }],
     'func-names': ['error', 'never'],
     'func-style': ['error', 'expression'], // completely disables function statements
+    'object-curly-newline': 'off', // forces unnecessary linebreaks on destructuring
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'prefer-promise-reject-errors': 'off',
     'import/no-named-as-default': 'off',

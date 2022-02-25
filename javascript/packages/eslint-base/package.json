@@ -6,7 +6,7 @@
   "readmeFilename": "README.md",
   "repository": "flashfixapp/styleguide",
   "bugs": "https://github.com/flashfixapp/styleguide/issues",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "linter",
     "config",
