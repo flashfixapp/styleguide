@@ -36,6 +36,7 @@ module.exports = {
     'import/no-named-as-default': 'off',
     'import/no-dynamic-require': 'off',
     'import/prefer-default-export': 'off',
-    'import/extensions': ['error', 'never'],
+    'import/extensions': 'off', // too broken together with no-unresolved
+    'import/no-unresolved': 'off', // alias support is too broken
   },
 };

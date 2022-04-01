@@ -13,9 +13,6 @@ import './unexisted_module';
 
 const variable = 2;
 
-// expect: import/first, import/extensions
-import '../../package.json';
-
 // expect: import/no-mutable-exports
 let mutable = 1;
 mutable = 2;
