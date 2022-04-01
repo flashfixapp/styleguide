@@ -27,6 +27,7 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'no-floating-decimal': 'off',
     'no-continue': 'off',
+    'no-restricted-exports': 'off', // doesn't let re-export defaults
     'space-before-function-paren': ['error', { anonymous: 'never', named: 'never', asyncArrow: 'always' }],
     'func-names': ['error', 'never'],
     'func-style': ['error', 'expression'], // completely disables function statements
