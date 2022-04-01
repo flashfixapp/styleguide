@@ -33,6 +33,7 @@ module.exports = {
     'react/no-unused-class-component-methods': 'off',
     'react-hooks/exhaustive-deps': 'off', // doesn't work well enough with custom hooks
     'react/no-unstable-nested-components': ['error', { allowAsProps: true }],
+    'react/jsx-one-expression-per-line': 'off', // doesn't let write sentences in React
 
     'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/anchor-has-content': 'off',
