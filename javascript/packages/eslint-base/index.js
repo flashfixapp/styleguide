@@ -34,6 +34,7 @@ module.exports = {
     'object-curly-newline': 'off', // forces unnecessary linebreaks on destructuring
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'prefer-promise-reject-errors': 'off',
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'import/no-named-as-default': 'off',
     'import/no-dynamic-require': 'off',
     'import/prefer-default-export': 'off',
